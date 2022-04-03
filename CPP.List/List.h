@@ -14,10 +14,10 @@ class Node {
 class List {
 	private:
 		string alphabet;
-	public:
 		Node* root;
 		Node* tail;
 		int count;
+	public:
 		List(string alphabet);
 		void AddNode(char value, int pos);
 		void Print();

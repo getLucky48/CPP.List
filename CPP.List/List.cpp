@@ -198,9 +198,6 @@ void List::Delete(int pos) {
 
 void List::ExcludeByAlphabet() {
 
-
-	int offset = 0;
-
 	bool isClear = false;
 
 	while (!isClear) {
